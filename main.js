@@ -207,7 +207,6 @@ function movetoPage1() {
     }, 1000, 'linear')
     $(".header").stop().delay(5000).fadeIn(3000)
     // setTimeout(clickStart, 2200)
-    transit()
 
 }
 
@@ -247,60 +246,3 @@ $('.header').click(function (event) {
 
 
 
-// function transit() {
-//     $('.page1>.control>.next').click(function () {
-//         $('#Marciana').animate({
-//             // "right": "100%",
-//             "left": "-=200%"
-//         }, 4000)
-//         $('.page1 > .model-descr').animate({
-//             "top": "-50%"
-//         }, 5000)
-//         // portrait2()
-
-
-//         $('.page1').delay(3500).fadeOut(200)
-
-//         // portrait2()
-//         // $('#Hemingway').delay(3500).animate({
-//         //     "left": "0"
-//         // }, 1000, 'linear')
-//         movetoPage2()
-//     })
-    
-    
-// }
-
-// function movetoPage2() {
-    
-//     $('.page2').delay(2000).fadeIn(200)
-//     $('.page2 >.model-descr').delay(2000).animate({
-//         "top": "20%"
-//     }, 3000)
-    
-//     $('#Hemingway').delay(3500).animate({
-//         "left": "0"
-//     }, 1000, 'linear')
-
-//     setTimeout(transit, 10000)
-
-//     $('.page2>.control>.pre').click(function () {
-//         $('#Hemingway').animate({
-//             // "right": "100%",
-//             "left": "100%"
-//         }, 4000)
-//         $('.page2 > .model-descr').animate({
-//             "top": "-50%"
-//         }, 5000)
-//         // portrait2()
-
-
-//         $('.page2').delay(3500).fadeOut(200)
-
-//         // portrait2()
-//         // $('#Hemingway').delay(3500).animate({
-//         //     "left": "0"
-//         // }, 1000, 'linear')
-//         movetoPage1()
-//     })
-// }
