@@ -1,0 +1,22 @@
+{
+  "name": "museumshowcase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yiranni/MuseumShowcase.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yiranni/MuseumShowcase/issues"
+  },
+  "homepage": "https://github.com/yiranni/MuseumShowcase#readme",
+  "dependencies": {
+    "jquery": "^3.5.0"
+  }
+}

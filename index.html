@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="libs/three.js"></script>
+    <script type="text/javascript" src="libs/STLLoader.js"></script>
+    <script type="text/javascript" src="libs/OrbitControls.js"></script>
+
+    <script type="text/javascript" src="libs/stats.js"></script>
+    <script type="text/javascript" src="libs/dat.gui.js"></script>
+
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="homepage">
+            <svg width="100vw" height="80vh" style="z-index: -1">
+                <rect id="bar" x="50" />
+                <g class="sampleImg">
+                    <image href="assets/sample1.svg" height="40" x="70" y="420" id="sample1" />
+                    <image href="assets/sample2.svg" height="40" x="70" y="459" id="sample2" />
+                    <image href="assets/sample3.svg" height="40" x="70" y="498" id="sample3" />
+                </g>
+            </svg>
+
+            <p class="title">大都会博物馆人物雕塑展</p>
+
+            <p class="start">点击开始参观</p>
+
+            <div style="z-index: 2; text-align: center; position: absolute; bottom: 4%; right: 4%;">
+                <p class="date">2020.05.15</p>
+            </div>
+        </div>
+        <div class="gallery">
+
+            <div class="page1">
+                <p class="model-descr">Marciana</p>
+                <div class="model hidden">
+                    <div id="Marciana">
+                    </div>
+                </div>
+                <div class="intro">
+
+                    <div class="header">
+                        <a href="#"><i class="fa fa-caret-up"></i></a>
+                    </div>
+
+                    <div class="content">
+
+                        <p class="country">ROMAN</p>
+                        <p class="name">Marble portrait of Marciana</p>
+                        <div class="detail">
+                            <p>
+                                During the last quarter of the first century A.D. and the early decades of the
+                                second
+                                century
+                                A.D.,
+                                ever more complex hair arrangements were developed for the ladies of the
+                                imperial
+                                court.
+                                Hairpieces with added hair and concealed frameworks
+                                formed high diadem-like structures surrounding the face. One of the most
+                                elaborate
+                                constructions
+                                appears on the official portraits of Marciana,
+                                the elder sister of Trajan. The high polish and engraved eyes on this head
+                                suggest
+                                that
+                                it
+                                was
+                                carved during the Hadrianic period.
+                                The powerful women of Trajan’s family were much honored by his successor,
+                                Hadrian,
+                                who
+                                is
+                                said
+                                to have owed his throne to their influence.
+                                Marciana was the grandmother of Hadrian’s wife, Sabina.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="page2">
+                <p class="model-descr">Hemingway</p>
+                <div class="model hidden">
+                    <div id="Hemingway">
+                    </div>
+                </div>
+                <div class="control">
+                    <a href="#" class="pre"><i class="fa fa-chevron-left"></i></a>
+                    <a href="#" class="next"><i class="fa fa-chevron-right"></i></a>
+                </div>
+
+                <div class="intro">
+
+                    <div class="header">
+                        <a href="#"><i class="fa fa-caret-up"></i></a>
+                    </div>
+
+                    <div class="content">
+
+                        <p class="country">ROMAN</p>
+                        <p class="name">Boxer at Rest</p>
+                        <div class="detail">
+                            <p>
+                                The bronze Boxer at Rest, also known as the Terme Boxer or Boxer of the Quirinal, is a
+                                Hellenistic Greek sculpture of a sitting nude boxer at rest, still wearing his caestus,
+                                a type of leather hand-wrap. It has been given various dates within the period of about
+                                330 to 50 BC. It was excavated in Rome in 1885, and is now in the collection of the
+                                National Museum of Rome, normally displayed in the Palazzo Massimo alle Terme.
+
+                                The Boxer at Rest is one of the finest examples of bronze sculptures to have survived
+                                from the ancient world; survivals from the period are rare, as they were easily melted
+                                down and transformed into new objects. The work comes from a period in Greek art where
+                                there is a movement away from idealised heroic depictions of the body and youth, and an
+                                exploration of emotional themes and greater realism.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <script src="main.js"></script>
+
+</body>
+
+</html>
