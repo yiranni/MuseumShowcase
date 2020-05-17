@@ -101,7 +101,6 @@ function portrait2() {
         group.rotation.x = -0.5 * Math.PI;
         group.rotation.z = -1.55
         group.scale.set(0.4, 0.4, 0.4);
-        // console.log(group.position)
         scene2.add(group);
     });
 
@@ -212,7 +211,6 @@ function movetoPage1() {
 
 
 $('.header').click(function (event) {
-    console.log("clicked")
     event.preventDefault();
     $(this).next('div').slideToggle('500');
     $(this).find('i').toggleClass('fa-caret-up fa-caret-down')
